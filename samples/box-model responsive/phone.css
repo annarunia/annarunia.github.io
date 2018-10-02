@@ -4,7 +4,6 @@ body{
 }
 .wrapper{
   display:block;
-  background: #CCCCCC;
   max-width: 1000px;
   min-height: 500px;
   width: 100%;
@@ -12,11 +11,15 @@ body{
   margin-right: auto;
 }
 
-nav{
+.title{
   display: block;
-  background: red;
+  text-align: center;
 }
 
+
+nav{
+  display: block;
+}
 
 .navlinks{
   list-style-type: none;
@@ -24,48 +27,26 @@ nav{
 
 .navlinks li {
   display: inline;
+  text-align: center;
+  font-size: 36px;
 }
 
 .navlinks a {
   text-decoration: none;
-  color: white;
   display: inline-block;
   padding: 10px;
   }
 
-.left {
-  display: inline-block;
-  vertical-align: top;
-  background: white;
-  width: 20%;
-  min-height: 500px;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  padding-left: 10px;
+.left, .right {
+  display: block;
+  width: 100%;
   margin: 20px;
   padding: 30px;
-
 }
 
-.right {
-  display: inline-block;
-  vertical-align: top;
-  width: 59%;
-  min-height: 500px;
-  background: #333333;
-  color: white;
-margin-left: 10px;
-padding-left: 10px;
-margin: 20px;
-padding: 30px;
-margin-left: 0;
-}
 
 footer{
 display: block;
-background: black;
-color: white;
 padding: 10px;
 padding-left: 25px;
-
 }

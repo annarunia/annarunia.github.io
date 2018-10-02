@@ -11,6 +11,12 @@ body{
   margin-right: auto;
 }
 
+.title{
+  display: block;
+  text-align: center;
+}
+
+
 nav{
   display: block;
 }
