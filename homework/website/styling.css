@@ -32,12 +32,11 @@ nav{
 
 .navlinks{
   list-style-type: none;
+text-align: center;
   }
 
 .navlinks li {
   display: inline;
-  text-align: center;
-
 }
 
 .navlinks a {

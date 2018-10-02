@@ -2,6 +2,9 @@ body{
   margin:0;
   padding:0;
 }
+
+
+
 .wrapper{
   display:block;
   max-width: 1000px;
@@ -11,10 +14,14 @@ body{
   margin-right: auto;
 }
 
+
+
+
 .title{
   display: block;
   text-align: center;
 }
+
 
 
 nav{
@@ -37,7 +44,7 @@ nav{
   padding: 10px;
   }
 
-.left, .right {
+.left .right {
   display: block;
   width: 100%;
   margin: 20px;
