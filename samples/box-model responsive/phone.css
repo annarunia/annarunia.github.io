@@ -7,11 +7,11 @@ body{
 
 .wrapper{
   display:block;
-  max-width: 1000px;
-  min-height: 500px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
 
@@ -33,22 +33,22 @@ nav{
   }
 
 .navlinks li {
-  display: inline;
+  display: block;
   text-align: center;
   font-size: 36px;
 }
 
 .navlinks a {
   text-decoration: none;
-  display: inline-block;
   padding: 10px;
   }
 
-.left .right {
+.left, .right {
   display: block;
   width: 100%;
-  margin: 20px;
   padding: 30px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
 }
 
 
