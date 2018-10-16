@@ -1,0 +1,60 @@
+body{
+  margin:100px;
+  padding:0;
+  margin-right: 20px;
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+  text-align: left;
+  display:block;
+  background: #CCCCCC;
+  width: 1000px;
+  min-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+nav{
+  display: block;
+  background: dodgerblue;
+}
+
+.navlinks{
+  list-style-type: block;
+text-align: center;
+  }
+
+.navlinks li {
+
+  display: inline;
+  color: dodgerblue;
+}
+
+.navlinks a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  }
+
+
+.title{
+  text-align: center;
+}
+
+
+.tokyo{
+  text-align: center;
+}
+
+footer{
+display: block;
+background: grey;
+color: black;
+padding: 10px;
+padding-left: 25px;
+}

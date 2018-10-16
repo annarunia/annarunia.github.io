@@ -1,47 +1,52 @@
 body{
+  font-family: 'Open Sans', sans-serif;
   margin:200px;
   padding:0;
   margin-right: 20px;
+  background-color: white;
 }
 
 .title{
-  display: block;
-  text-align: center;
-}
-
-.tokyo{
-  color: #CCCCCC;
-  display: block;
-  text-align: center;
+  text-align:center;
+color: grey;
 }
 
 
 .wrapper{
   display:block;
-  background: #CCCCCC;
+  border: 1px;
+  border-color: grey;
+  background: #white;
   width: 1000px;
   min-height: 500px;
   margin-left: auto;
   margin-right: auto;
 }
 
-nav{
-  background: white;
+
+.title{
+  text-align: center;
 }
 
+nav{
+  display: block;
+  background: dodgerblue;
+}
 
 .navlinks{
-  list-style-type: none;
+  list-style-type: block;
 text-align: center;
   }
 
 .navlinks li {
+
   display: inline;
+  color: dodgerblue;
 }
 
 .navlinks a {
   text-decoration: none;
-  color: black;
+  color: white;
   display: inline-block;
   padding: 10px;
   }
@@ -49,14 +54,20 @@ text-align: center;
 
 
 
+
+
+
+
+
+
+
+
+
 footer{
 display: block;
+width: 1060px;
 background: lightslategrey;
 color: black;
 padding: 10px;
 padding-left: 25px;
-}
-
-.roadto{
-  color: darkorange;
 }
