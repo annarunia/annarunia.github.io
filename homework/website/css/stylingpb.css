@@ -76,10 +76,64 @@ text-align: center;
   background: white;
   color: white;
 
-
-
-
 }
+
+
+
+
+
+.fadein {
+  display: inline;
+}
+
+.fadein img{
+opacity:0.5;
+transition: 1s ease;
+}
+
+.fadein img:hover{
+opacity:1;
+transition: 1s ease;
+}
+
+
+.fadein img{
+opacity:0.4;
+transition: 0.5s ease;
+}
+
+.fadein img:hover{
+opacity:1;
+transition: 1s ease;
+}
+
+.grey img{
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 1s ease;
+}
+
+.grey img:hover{
+filter: grayscale(0%);
+filter: gray;
+-webkit-filter: grayscale(0%);
+filter: none;
+transition: 1s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
