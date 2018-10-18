@@ -16,7 +16,10 @@ body{
   margin-right: auto;
 }
 
-
+.homeimage{
+  width: auto;
+  align-items: center;
+}
 
 nav{
   display: block;
