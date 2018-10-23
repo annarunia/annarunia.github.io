@@ -179,8 +179,8 @@ align-items: center;
 
 
 footer{
-
-background: #1F2328;
+display: block;
+background: #black;
 
 color: white;
 padding: 20px;
