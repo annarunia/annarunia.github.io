@@ -10,6 +10,7 @@ nav li  {
     width: 47%;
     background: #f1f1f1;
     box-sizing: content-box;
+    width: 400px;
     margin: 1%;
 }
 /* Create three equal columns that align next to each other */
@@ -38,7 +39,7 @@ nav li  {
   text-align: center;
 }
 .gallery img {
-  width:200px;
+  width:300px;
   margin: 10px;
   border: 2px solid white;
 }
