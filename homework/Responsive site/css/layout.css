@@ -50,6 +50,8 @@ nav a:hover {
       align: center;
 }
 
+
+
 footer {
   font-family: 'Open Sans', sans-serif;
   padding: 10px;
@@ -63,12 +65,13 @@ footer {
 .wrapper{
   text-align: left;
   display:block;
-  background: #CCCCCC;
+  background: #f1f1f1;
   width: 1000px;
   min-height: 500px;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
