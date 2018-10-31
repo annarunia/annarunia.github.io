@@ -13,7 +13,7 @@ $(function(){
 $('.totalsteps').html(totalsteps);
 
   //hide all the steps and controls. You can specify multiple things to hide by separating them by a comma.
-$('.steps li, .end, .controls, #prev').hide();
+$('.steps li, .end, .controls, #halloween, .eng,  #prev').hide();
 });
 
 
@@ -42,6 +42,7 @@ currentslide = $('#step' + currentstep);
 $(currentslide).fadeIn(1000);
 $('h2').html('Step' + currentstep);
 }
+
 
 if(currentstep == totalsteps){
 $('#next').hide();
@@ -80,7 +81,9 @@ $('.steps li,  .controls, #prev').hide();
 
 $('#finish').on('click', function(){
 
+
 $('#maintitle').hide();
+$('#halloween').fadeIn(4500);
 });
 
 
