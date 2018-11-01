@@ -1,5 +1,5 @@
 body {
-  background: #black;
+  background: #orange;
 }
 .totalsteps {
   display: inline-block;
@@ -50,4 +50,14 @@ h1 {
 button {
   width: 100px;
   height: 40px;
+}
+
+#halloween{
+  color: orange;
+}
+
+
+.end{
+  color: orange;
+font-size:40px;
 }

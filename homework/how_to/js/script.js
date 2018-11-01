@@ -80,10 +80,40 @@ $('.steps li,  .controls, #prev').hide();
 
 
 $('#finish').on('click', function(){
+$('#maintitle').html('Happy Halloween!');
+});
 
 
-$('#maintitle').hide();
-$('#halloween').fadeIn(4500);
+
+
+
+
+//$('.from img').on('mousover'), function(){
+//  img = $(this).attr('scr');
+//  console.log(img);
+//  $('to').html('<img scr="'')
+//}
+
+$('#maintitle').on('mouseover', function(){
+  $(this).css('color', 'orange');
+});
+
+$('#maintitle').on('mouseleave', function(){
+  $(this).css('color', 'black');
+});
+
+$('#end').on('click', function(){
+  location.reload();
+});
+
+
+$('#finish').on('click', function(){
+$('#end').fadeIn(70000);
+
+});
+
+$('p').on('mouseover', function(){
+  $(this).css('color', 'red');
 });
 
 
