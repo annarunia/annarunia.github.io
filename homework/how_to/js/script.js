@@ -116,6 +116,17 @@ $('p').on('mouseover', function(){
   $(this).css('color', 'red');
 });
 
+$('p').on('mouseleave', function(){
+  $(this).css('color', 'black');
+});
+
+
+
+$('#scary').on('mouseover', function(){
+$('#scary').fadeOut(2000);
+$('#eng').fadeIn(1000);
+
+});
 
 
 
